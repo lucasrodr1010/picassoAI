@@ -14,7 +14,7 @@ export default function StartPage() {
       />
       <h1 className="text-4xl" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 600 }}>Welcome to Picasso AI!</h1>
       <h2 className="text-2xl" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 500, fontSize: "28px" }}>Can You Spot the Real Artwork?</h2>
-      <p className="max-w-md text-gray-600 mt-[5%]" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 300, fontSize: "24px" }}>
+      <p className="max-w-md text-[#fffff0] mt-[5%]" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 300, fontSize: "24px" }}>
         Compare an AI-generated piece with an original artwork and test your skills. By the end, you’ll see if human creativity still reigns supreme.
       </p>
       <Button className="mt-[10px] mb-[50px]" onClick={() => nav('/game')}>Start Game</Button>

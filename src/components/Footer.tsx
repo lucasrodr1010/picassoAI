@@ -14,14 +14,14 @@ const Footer = () => (
       <img
         src={logoWhite}
         alt="Logo"
-        className="h-2 w-auto ml-[2%]"
+        className="h-[50px] w-auto ml-[2%]"
       />
       <div
         className="flex space-x-6 text-gray-500 mr-[2%]"
         style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 200 }}
       >
         <span>Lucas Rodriguez</span>
-        <span>, Nicholas Webber</span>
+        <span>Nicholas Webber</span>
       </div>
     </footer>
   </>
