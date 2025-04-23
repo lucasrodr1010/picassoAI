@@ -1,5 +1,5 @@
 // src/pages/GamePage.tsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { OpenAI } from 'openai';
 import { useNavigate } from 'react-router-dom';
 
@@ -29,8 +29,7 @@ function parseAIOutput(text: string): { title: string; lines: string[] } {
   return { title: 'Untitled', lines: parts };
 }
 
-export default function GamePage() {
-  const navigate = useNavigate();
+export default function GamePage() {s
   const [questionIndex, setQuestionIndex] = useState<number>(1);
   const [score, setScore] = useState<number>(0);
   const [resultMessage, setResultMessage] = useState<string>('');

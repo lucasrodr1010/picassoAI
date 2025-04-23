@@ -1,9 +1,4 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import Button from '../components/Button';
-
 export default function AboutPage() {
-  const nav = useNavigate();
   return (
     <div className="p-8 text-center space-y-6">
       <h1 className="text-4xl mb-4">What is Picasso AI?</h1>

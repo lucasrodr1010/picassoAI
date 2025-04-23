@@ -1,4 +1,3 @@
-import React from 'react';
 import logoWhite from '../assets/logo-small-white.png';
 
 const Footer = () => (
