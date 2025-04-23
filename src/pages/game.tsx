@@ -1,7 +1,6 @@
 // src/pages/GamePage.tsx
 import { useState, useEffect } from 'react';
 import { OpenAI } from 'openai';
-import { useNavigate } from 'react-router-dom';
 
 interface Poem {
   title: string;
@@ -29,7 +28,7 @@ function parseAIOutput(text: string): { title: string; lines: string[] } {
   return { title: 'Untitled', lines: parts };
 }
 
-export default function GamePage() {s
+export default function GamePage() {
   const [questionIndex, setQuestionIndex] = useState<number>(1);
   const [score, setScore] = useState<number>(0);
   const [resultMessage, setResultMessage] = useState<string>('');
