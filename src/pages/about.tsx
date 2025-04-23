@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <div className="p-8 text-center space-y-6">
       <h1 className="text-4xl mb-4">What is Picasso AI?</h1>
-      <p className="text-lg text-[#ffffff] ml-[2%] mr-[2%]" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 300, fontSize: "24px" }}>
+      <p className="text-lg text-[#808080] ml-[2%] mr-[2%]" style={{ fontFamily: '"Public Sans", sans-serif', fontWeight: 300, fontSize: "24px" }}>
         Picasso AI is a brief game that asks players to distinguish between AI-generated images and human art. By presenting side-by-side comparisons, the goal of the experience is to expose users to how advanced generative models can now replicate human artistic style. Today, this technological leap poses real threats to creative professionals—AI can churn out work in established styles faster and cheaper than ever, shrinking opportunities for traditional artists. Moreover, many AI systems train on vast troves of existing art without clear attribution or permission, raising concerns about copyright infringement and the erosion of an artist’s control over their own style and livelihood.
         </p>
 
