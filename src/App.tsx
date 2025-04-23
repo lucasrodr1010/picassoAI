@@ -5,13 +5,17 @@ import GamePage from './pages/game';
 import FinishPage from './pages/results';
 import AboutPage from './pages/about';
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 export default function App() {
   return (
     <div className="flex flex-col min-w-screen min-h-screen">
       <nav className="bg-gray-800 text-white p-4">
       </nav>
-      <main className="flex-grow p-6">
+      <div>
+      <Header/>
+      </div>
+      <main className="flex-grow px-6">
         <Routes>
           <Route path="/" element={<StartPage />} />
           <Route path="/game" element={<GamePage />} />
@@ -19,7 +23,10 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </main>
+      <div>
       <Footer/>
+      </div>
     </div>
+    
   );
 }
