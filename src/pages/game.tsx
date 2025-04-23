@@ -295,7 +295,8 @@ export default function GamePage() {
           />
           <button
             onClick={generateImages}
-            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+            className="w-full text-white py-2 rounded hover:bg-blue-700"
+            style={{ backgroundColor: "#808080" }}
           >
             Generate Images
           </button>
